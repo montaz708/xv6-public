@@ -57,6 +57,12 @@ sys_sbrk(void)
 }
 
 int
+sys_wcupa(void)
+{
+  return 1871;
+}
+
+int
 sys_sleep(void)
 {
   int n;
