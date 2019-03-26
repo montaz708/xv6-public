@@ -63,6 +63,13 @@ sys_wcupa(void)
 }
 
 int
+sys_getreadcount(void)
+{
+  int count = 0;
+  return ++count;
+}
+
+int
 sys_sleep(void)
 {
   int n;
