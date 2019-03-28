@@ -61,9 +61,14 @@ sys_sbrk(void)
 int
 sys_wcupa(void)
 {
+  count++;
   return 1871;
 }
-
+int
+sys_countr(void)
+{
+  return count;
+}
 int
 sys_sleep(void)
 {
