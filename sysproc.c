@@ -7,6 +7,8 @@
 #include "mmu.h"
 #include "proc.h"
 
+int count = 0;
+
 int
 sys_fork(void)
 {
@@ -60,13 +62,6 @@ int
 sys_wcupa(void)
 {
   return 1871;
-}
-
-int
-sys_getreadcount(void)
-{
-  int count = 0;
-  return ++count;
 }
 
 int

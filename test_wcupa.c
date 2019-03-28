@@ -3,6 +3,6 @@
 #include "user.h"
 
 int main(void){
-    printf(1, "West Chester University was founded in %d\n Readcount: %d \n", wcupa(), getreadcount());
+    printf(1, "West Chester University was founded in %d\n", wcupa());
     exit();
 }
